@@ -44,9 +44,9 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『Bot 1 | #3K』 『اسم البوت』", true)
+      .addField("Welcome To The Server", true)
       
-      .addField("『مصمم البوت Mr.LOVE And Hady Khaled』", true)
+      .addField("By XLZ", true)
       
       .addField("『!help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
@@ -157,15 +157,6 @@ client.on("message", message => {
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 
 🎮『العاب』🎮
-
-🎮!كت تويت
-
-🎮!مريم 
-
-🎮!خواطر
-
-🎮!زواج
-
 🎮!لوخيروك
 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
@@ -622,7 +613,7 @@ client.on('message', message => {
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('!bc-users')){
- if(!message.author.id === 'اي دي صاحب البوت') return;
+ if(!message.author.id === '442670807240671252') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -989,7 +980,7 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 });
 
-const developers = ["462437279487754240","442670807240671252",""]
+const developers = ["465999996400173066","442670807240671252",""]
 const adminprefix = "!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
