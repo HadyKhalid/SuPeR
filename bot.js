@@ -980,7 +980,7 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 });
 
-const developers = ["465999996400173066","442670807240671252",""]
+const developers = ["465999996400173066","442670807240671252","410032227490201620"]
 const adminprefix = "!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
